@@ -1,7 +1,15 @@
 aid: favorited
 name: favorited
-description: favorited is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Favorited is a mobile-first live streaming platform that helps content
+  creators run interactive, real-time shows with their audiences. The app
+  centers on participatory formats — games, giveaways, and community
+  interactions — so that viewers feel like they are playing together with a
+  creator rather than passively watching a broadcast, alongside monetization
+  tools for creators. Favorited ships as consumer iOS and Android apps and, as
+  of this profile, publishes no public developer API, SDK, or documentation
+  surface. It was surfaced as a portfolio company of a16z and added to the API
+  Evangelist network for enrichment and monitoring.
 url: https://raw.githubusercontent.com/api-evangelist/favorited/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +17,49 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://favorited.com/favicon.ico
 tags:
 - Company
+- Live Streaming
+- Creator Economy
+- Video
+- Social
+- Mobile App
+- Entertainment
+- Monetization
 apis: []
+common:
+- type: DomainSecurity
+  url: security/favorited-domain-security.yml
+- type: Website
+  url: https://favorited.com
+- type: Support
+  url: https://support.favorited.com/
+- type: PrivacyPolicy
+  url: https://favorited.zendesk.com/hc/en-us/articles/35990746359323-PRIVACY-NOTICE
+- type: TermsOfService
+  url: https://favorited.zendesk.com/hc/en-us/articles/35990749915035-Terms
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
